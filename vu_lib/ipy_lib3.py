@@ -47,6 +47,9 @@ import urllib.request, urllib.error, urllib.parse
 import urllib.request, urllib.parse, urllib.error
 import json
 
+if _os.environ.get('DISPLAY','') == '':
+    _os.environ.__setitem__('DISPLAY', ':0.0')
+
 have_mpl = False
 try:
     import matplotlib as mpl
