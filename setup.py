@@ -9,9 +9,9 @@ def readme():
 
 
 setup(
-    name="",
+    name="vu_lib",
     version=__version__,
-    description="",
+    description="The PyPi implementation of the Vrije Universiteit Amsterdam \"ipy_lib3\" package.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/markmelnic/VU-Lib",
